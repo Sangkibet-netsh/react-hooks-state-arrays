@@ -8,6 +8,7 @@ function SpicyFoodList() {
     const newFood = getNewRandomSpicyFood();
     console.log(newFood);
   }
+  //
 
   const foodList = foods.map((food) => (
     <li key={food.id}>
